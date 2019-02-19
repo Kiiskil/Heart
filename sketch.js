@@ -1,5 +1,5 @@
-let x0 = 300;
-let y0 = 300;
+let x0 = width/2;
+let y0 = height/2;
 let a = 0;
 let s = 10;
 let i = 0;
