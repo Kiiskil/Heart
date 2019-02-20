@@ -37,6 +37,11 @@ function bluePrint(newName){
     //console.log(name);
     let r = 0;
     switch(name){
+        case "ganja":
+            r = s * (1+(9/10)*cos(8*a))*(1+(1/10)*cos(24*a))*((9/10)+(1/10)*cos(200*a))*(1+sin(a));
+            x = s * r * cos(a);
+            y = s * r * sin(a);
+            break;
         case "spiral":
             r = s * pow(a,0.5);
             x = s * r * cos(a);
