@@ -37,6 +37,11 @@ function bluePrint(newName){
     //console.log(name);
     let r = 0;
     switch(name){
+        case "spiral":
+            r = s * pow(a,0.5);
+            x = s * r * cos(a);
+            y = s * r * sin(a);
+            break;
         case "cross":
             r = 2 / sqrt(sin(4*a));
             x = s * r * cos(a);
